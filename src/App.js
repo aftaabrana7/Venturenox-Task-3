@@ -5,6 +5,7 @@ import NavBar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import New from "./components/New";
 import Page from "./components/Page";
 
 
@@ -15,6 +16,7 @@ const App = () => {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/Page" element={<Page />} />
+          <Route exact path="/New" element={<New />} />
           <Route exact path="/About" element={<About />} />
           <Route exact path="/Contact" element={<Contact />} />
         </Routes>
